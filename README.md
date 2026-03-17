@@ -16,20 +16,19 @@ I configured DNS routing using Route53, implemented messaging systems with SQS a
 
 ## Architecture
 
-- Route53 → DNS and domain routing  
-- SQS → message queue system  
-- SNS → notification service  
-- Athena → data query and analysis  
-
+- Route53 → routes traffic to applications  
+- SNS → publishes messages  
+- SQS → receives and stores messages  
+- Athena → queries data from S3  
 ---
 
 ## What I Built
-- Configured Route53 hosted zones and DNS records
-- Implemented message queues using SQS
-- Set up SNS topics and notifications
-- Sent and received messages between services
-- Queried data using AWS Athena
-- Tested system integration between services
+- Configured Route53 hosted zones and DNS routing
+- Created SQS queue for message processing
+- Set up SNS topic for notifications
+- Connected SNS to SQS for message delivery
+- Queried data using Athena from S3
+- Tested message flow between services
 
 ---
 
