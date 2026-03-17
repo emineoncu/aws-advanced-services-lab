@@ -8,9 +8,9 @@ Route53, SQS, SNS, and data processing using AWS tools.
 ---
 
 ## Overview
-This project demonstrates advanced AWS cloud support skills beyond core infrastructure.
+This project simulates a real-world event-driven architecture where SNS publishes events and SQS processes them asynchronously.
 
-I configured DNS routing using Route53, implemented messaging systems with SQS and SNS, and performed data queries using AWS analytics services.
+It demonstrates advanced AWS cloud support skills including DNS routing with Route53, messaging systems using SNS and SQS, and data querying with Athena.
 
 ---
 
@@ -18,7 +18,7 @@ I configured DNS routing using Route53, implemented messaging systems with SQS a
 
 - Route53 → routes traffic to application endpoints  
 - SNS → publishes messages to subscribers  
-- SQS → receives and processes messages asynchronously  
+- SQS → receives and stores messages for processing  
 - Athena → queries and analyzes data stored in S3  
 ---
 ## What I Built
