@@ -1,5 +1,4 @@
-# aws-advanced-services-lab
-Advanced AWS services including Route53, messaging, and data analytics
+
 # AWS Advanced Services Lab
 
 Hands-on AWS project simulating real-world Cloud Support tasks involving advanced services such as DNS management, messaging systems, and data analytics.
@@ -54,16 +53,16 @@ I configured DNS routing using Route53, implemented messaging systems with SQS a
 ## Screenshots
 
 ### Route53 DNS Configuration
-(Add image)
+<img width="1357" height="582" alt="image" src="https://github.com/user-attachments/assets/ec89e34c-2abe-4a96-a8b0-175092bbae79" />
 
 ### SQS Queue
-(Add image)
+<img width="1676" height="863" alt="image" src="https://github.com/user-attachments/assets/603b921f-b0df-4b64-a04d-d1d759cbd605" />
 
 ### SNS Topic
-(Add image)
+<img width="1671" height="801" alt="image" src="https://github.com/user-attachments/assets/de6047cb-54a7-47be-8886-70507da00927" />
 
 ### Athena Query Results
-(Add image)
+<img width="508" height="589" alt="image" src="https://github.com/user-attachments/assets/3a5acf7c-1e50-48d6-8459-5ca4fbdba8fe" />
 
 ---
 
