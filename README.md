@@ -16,12 +16,11 @@ I configured DNS routing using Route53, implemented messaging systems with SQS a
 
 ## Architecture
 
-- Route53 → routes traffic to applications  
-- SNS → publishes messages  
-- SQS → receives and stores messages  
-- Athena → queries data from S3  
+- Route53 → routes traffic to application endpoints  
+- SNS → publishes messages to subscribers  
+- SQS → receives and processes messages asynchronously  
+- Athena → queries and analyzes data stored in S3  
 ---
-
 ## What I Built
 - Configured Route53 hosted zones and DNS routing
 - Created SQS queue for message processing
